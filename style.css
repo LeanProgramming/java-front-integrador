@@ -1,0 +1,61 @@
+#encabezado img{
+    filter: brightness(50%);
+}
+
+#encabezado {
+    position: relative;
+}
+
+#texto-encabezado {
+    position: absolute;
+    right: 7.5%;
+    top: 45%;
+    max-width: 50%;
+}
+
+#cards p {
+    font-size: small;
+}
+
+@media (max-width: 992px) {
+    #texto-encabezado {
+        position: absolute;
+        right: 7.5%;
+        top: 45%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    #texto-encabezado {
+        position: absolute;
+        right: 7.5%;
+        top: 25%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    #texto-encabezado {
+        position: absolute;
+        right: 0%;
+        top: 10%;
+        max-width: 100%;
+        font-size: small;
+    }
+    
+    #texto-encabezado h1 {
+        font-size: large;
+    }
+
+    #encabezado button {
+        width: 45%;
+        font-size: smaller;
+    }
+
+    #botones-encabezado {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
