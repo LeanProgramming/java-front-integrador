@@ -17,6 +17,15 @@
     font-size: small;
 }
 
+#contenido-ticket {
+    width: 50%;
+    margin: auto;
+}
+
+.descuento-card {
+    width: 200px;
+}
+
 @media (max-width: 992px) {
     #texto-encabezado {
         position: absolute;
